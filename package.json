@@ -1,0 +1,12 @@
+{
+  "name": "nuxt-layers-yarn-workspace",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace nuxt-b dev"
+  }
+}
